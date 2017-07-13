@@ -24,3 +24,16 @@ $(document).ready(function(){
 		$('.fa-circle').css({'color': 'white'});
 		$('#img'+ number).css({'color': '#FF294B'});	
 	}
+
+	function anterior(){
+		if( number <= 1){
+			number = 5;
+		}else {
+			number--;
+		}
+
+		$('.picture').hide(); 
+		$('#pic'+ number).fadeIn(1000); 
+		$('.fa-circle').css({'color': 'white'});
+		$('#img'+ number).css({'color': '#FF294B'});
+	}
