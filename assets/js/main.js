@@ -11,3 +11,16 @@ $(document).ready(function(){
 	setInterval(function(){
 		siguiente();
 	}, 6000);
+
+	function siguiente(){
+		if( number >= 5){
+			number = 1;
+		}else {
+			number++;
+		}
+
+		$('.picture').hide(); 
+		$('#pic'+ number).fadeIn(1000); 
+		$('.fa-circle').css({'color': 'white'});
+		$('#img'+ number).css({'color': '#FF294B'});	
+	}
