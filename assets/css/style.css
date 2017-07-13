@@ -63,3 +63,50 @@ body{
 	width: 50%;
 	height: 80vh;
 }
+.cambio .picture{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 1;
+}
+.carousel-left, .carousel-right{
+	position: absolute;
+	top: 0;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+	z-index: 222;
+}
+.carousel-left{
+	left: 100px;
+}
+.carousel-right{
+	right: 100px;
+}
+.carousel{
+	position: absolute;
+	top: 79vh;
+	width: 100%;
+	z-index: 333;
+	display: flex;
+	justify-content: center;
+}
+.fa-circle{
+	margin: 3px;
+	color: white;
+	font-size: 22px;
+	color: white;
+}
+.el-footer{
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
