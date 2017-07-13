@@ -38,7 +38,7 @@ $(document).ready(function(){
 		$('#img'+ number).css({'color': '#FF294B'});
 	}
 
-	function paginacion(){
+	function pagina(){
 		var carusel = $(this).index() + 1; 
 		console.log(carusel);
 		$('.picture').hide(); 
