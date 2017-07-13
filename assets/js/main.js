@@ -37,3 +37,17 @@ $(document).ready(function(){
 		$('.fa-circle').css({'color': 'white'});
 		$('#img'+ number).css({'color': '#FF294B'});
 	}
+
+	function paginacion(){
+		var carusel = $(this).index() + 1; 
+		console.log(carusel);
+		$('.picture').hide(); 
+		$('#pic'+ carusel).fadeIn(1000); 
+		$('.fa-circle').css({'color': 'white'});
+		$('#img'+ number).css({'color': '#FF294B'});
+
+		number = carusel;
+
+	}
+
+});
