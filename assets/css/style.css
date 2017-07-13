@@ -103,10 +103,11 @@ body{
 	color: white;
 }
 .el-footer{
-	height: 100px;
+	height: 50px;
 	width: 100%;
 	background-color: black;
 	color: whitesmoke;
 	font-weight: bold;
+	top: 800px;
+	position: absolute;
 }
-
