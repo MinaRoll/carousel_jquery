@@ -13,3 +13,53 @@ body{
 	font-weight: bold;
 	font-family: cursive;
 }
+.cambio{
+	position:relative;
+	left: 300px;
+}
+.caja-fotos{
+	width: 100%;
+	margin: auto;
+}
+#pic1{
+	background-image: url(../img/gryffindor.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	height: 80vh;
+	position: absolute;
+
+}
+#pic2{  
+	background-image: url(../img/hufflepuff.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	height: 80vh;
+}
+#pic3{
+	background-image: url(../img/revenclaw.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	height: 80vh;
+}
+#pic4{
+	background-image: url(../img/slytherin.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	height: 80vh;
+}
+#pic5{
+	background-image: url(../img/escudo-hogwarts.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	height: 80vh;
+}
